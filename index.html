@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alee Carte</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost:wght@300;400;500&display=swap">
+<style>
+/* Layout: single narrow editorial column, white page, big serif masthead, themed sections with 2-col item grids */
+:root{
+  --paper:#FFFFFF;
+  --ink:#2B2B28;
+  --muted:#6F675F;
+  --burgundy:#6E2B35;
+  --camel:#B08550;
+  --rule:#E6DFD6;
+  --tint:#F3EBE1;
+  --display:'DM Serif Display','Playfair Display',Georgia,serif;
+  --body:'Jost','Helvetica Neue',Arial,sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.6;font-weight:300;margin:0}
+.wrap{max-width:760px;margin:0 auto;padding-block:48px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.draft{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--camel);border-bottom:1px solid var(--rule);padding-bottom:12px;margin-bottom:40px}
+h1{font-family:var(--display);font-weight:400;font-size:clamp(3rem,10vw,5.5rem);line-height:.98;margin:0 0 20px;color:var(--burgundy);text-wrap:balance}
+.tagline{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--camel);margin:0 0 28px}
+.intro{font-size:1.125rem;max-width:34em;margin:0 0 12px}
+.disclosure{font-size:13px;color:var(--muted);margin:0 0 40px}
+nav{display:flex;flex-wrap:wrap;gap:8px 24px;border-top:1px solid var(--ink);border-bottom:1px solid var(--rule);padding-block:12px;margin-bottom:56px;font-size:13px;letter-spacing:.12em;text-transform:uppercase}
+a{color:inherit}
+nav a{text-decoration:none}
+nav a:hover,nav a:focus-visible{color:var(--burgundy);text-decoration:underline;text-underline-offset:4px}
+section{margin-bottom:64px}
+h2{font-family:var(--display);font-weight:400;font-size:2rem;margin:0 0 4px;text-wrap:balance}
+.lede{color:var(--muted);margin:0 0 28px;max-width:34em}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px 24px}
+@media (max-width:520px){.grid{grid-template-columns:1fr}}
+.collage{display:block;width:100%;max-width:360px;height:auto;margin:0 0 32px}
+.item{min-width:0}
+.ph{aspect-ratio:4/5;max-width:100%;background:var(--tint);display:flex;align-items:flex-end;padding:12px;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:12px}
+.ph.brand{aspect-ratio:16/9;align-items:center;font-family:var(--display);font-size:1.15rem;letter-spacing:0;text-transform:none;color:var(--burgundy)}
+.label{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--camel);margin:0 0 2px}
+.item h3{font-family:var(--display);font-weight:400;font-size:1.25rem;line-height:1.25;margin:0 0 6px}
+.item p{margin:0 0 8px;font-size:15px}
+.item .go{font-size:13px;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;border-bottom:1px solid var(--burgundy);color:var(--burgundy);padding-bottom:1px}
+.item .go:focus-visible,.item .go:hover{background:var(--tint)}
+.about{border-top:1px solid var(--ink);padding-top:24px;display:grid;gap:8px;max-width:34em}
+.about h2{font-size:1.5rem}
+footer{margin-top:48px;font-size:12px;color:var(--muted);border-top:1px solid var(--rule);padding-top:16px}
+</style>
+
+</head>
+<body>
+<main class="wrap">
+  <div class="draft">Draft layout · placeholder items and links</div>
+
+  <h1>Alee Carte</h1>
+  <p class="tagline">A short menu of things worth having.</p>
+  <p class="intro">Things I would give, carry and keep at home. Theatre gifts, bag charms and a cosy corner, chosen slowly and kept short.</p>
+  <p class="disclosure">Some links are affiliate links. If you buy through them I may earn a small commission, at no extra cost to you. I only list what I would use myself.</p>
+
+  <nav aria-label="Sections">
+    <a href="#theatre">Theatre gifts</a>
+    <a href="#charms">Bag charms</a>
+    <a href="#home">Cosy home</a>
+    <a href="#stocking">Stocking fillers</a>
+    <a href="#about">About</a>
+  </nav>
+
+  <section id="theatre">
+    <h2>For the theatre person</h2>
+    <p class="lede">Gifts for someone who stays for the curtain call and reads the programme twice.</p>
+    <div class="grid">
+      <article class="item">
+        <div class="ph">Photo from the shop</div>
+        <p class="label">Stationery</p>
+        <h3>Playwright's notebook</h3>
+        <p>Plain pages for blocking sketches and half-written scenes.</p>
+        <a class="go" href="#" rel="sponsored noopener">See it</a>
+      </article>
+      <article class="item">
+        <div class="ph">Photo from the shop</div>
+        <p class="label">Wearable</p>
+        <h3>Stage-curtain scarf</h3>
+        <p>Deep burgundy, heavy enough to feel like velvet.</p>
+        <a class="go" href="#" rel="sponsored noopener">See it</a>
+      </article>
+      <article class="item">
+        <div class="ph">Photo from the shop</div>
+        <p class="label">Print</p>
+        <h3>Vintage playbill print</h3>
+        <p>Framed once, it looks like it belonged to the room all along.</p>
+        <a class="go" href="#" rel="sponsored noopener">See it</a>
+      </article>
+      <article class="item">
+        <div class="ph">Photo from the shop</div>
+        <p class="label">Small gift</p>
+        <h3>Enamel pin, masks</h3>
+        <p>For the tote bag, the lapel, the rehearsal bag.</p>
+        <a class="go" href="#" rel="sponsored noopener">See it</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="charms">
+    <h2>Bag charms</h2>
+    <p class="lede">One good charm is enough. Leather, brass and small ceramic details wear better than plastic.</p>
+    <div class="grid">
+      <article class="item">
+        <div class="ph">Photo from the shop</div>
+        <p class="label">Leather</p>
+        <h3>Camel leather strap charm</h3>
+        <p>Goes with a structured bag and a plain coat.</p>
+        <a class="go" href="#" rel="sponsored noopener">See it</a>
+      </article>
+      <article class="item">
+        <div class="ph">Photo from the shop</div>
+        <p class="label">Metal</p>
+        <h3>Brass ballet slipper</h3>
+        <p>Small, quiet and a little sentimental.</p>
+        <a class="go" href="#" rel="sponsored noopener">See it</a>
+      </article>
+      <article class="item">
+        <div class="ph">Photo from the shop</div>
+        <p class="label">Handmade</p>
+        <h3>Beaded keyring, autumn tones</h3>
+        <p>Rust, olive and cream. Works on keys as well as bags.</p>
+        <a class="go" href="#" rel="sponsored noopener">See it</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="home">
+    <h2>A cosy corner</h2>
+    <p class="lede">Warm light, soft textures and something to hold on a rainy evening.</p>
+    <div class="grid">
+      <article class="item">
+        <div class="ph">Photo from the shop</div>
+        <p class="label">Light</p>
+        <h3>Beeswax taper candles</h3>
+        <p>A slow, honeyed burn. Pair with a plain holder.</p>
+        <a class="go" href="#" rel="sponsored noopener">See it</a>
+      </article>
+      <article class="item">
+        <div class="ph">Photo from the shop</div>
+        <p class="label">Textile</p>
+        <h3>Wool throw, rust</h3>
+        <p>Heavy and warm, and it ages well.</p>
+        <a class="go" href="#" rel="sponsored noopener">See it</a>
+      </article>
+      <article class="item">
+        <div class="ph">Photo from the shop</div>
+        <p class="label">Ceramic</p>
+        <h3>Hand-thrown mug</h3>
+        <p>A wide mouth, a thick wall, and tea stays hot longer.</p>
+        <a class="go" href="#" rel="sponsored noopener">See it</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="stocking">
+    <h2>Stocking fillers</h2>
+    <p class="lede">Small things for her, chosen to be kept and not just unwrapped.</p>
+    <div class="grid">
+      <article class="item">
+        <div class="ph brand">Søstrene Grene</div>
+        <p class="label">Light</p>
+        <h3>Sweet Tangerine scented candle</h3>
+        <p>Honey tangerine and sweet vanilla in a pressed-glass jar.</p>
+        <a class="go" href="https://sostrenegrene.com/fr/produits/maison/bougie-parfumee-sweet-tangerine-p-c7841fbb?variant=522792-001" rel="noopener">See it</a>
+      </article>
+      <article class="item">
+        <div class="ph brand">Sézane</div>
+        <p class="label">Charm</p>
+        <h3>Juliette mirror keychain</h3>
+        <p>A tortoiseshell pocket mirror on a gold clip, for a bag or keys.</p>
+        <a class="go" href="https://www.sezane.com/en-en/product/juliette-mirror-keychain/caramel" rel="noopener">See it</a>
+      </article>
+      <article class="item">
+        <div class="ph brand">Via Faire</div>
+        <p class="label">Charm</p>
+        <h3>Gold sun charm</h3>
+        <p>A sun with a calm face, on a lobster clasp.</p>
+        <a class="go" href="https://www.faire.com/brand/b_6xgdvj3rrf" rel="noopener">See it</a>
+      </article>
+      <article class="item">
+        <div class="ph brand">Etsy</div>
+        <p class="label">Jewellery</p>
+        <h3>Custom Italian charm bracelet</h3>
+        <p>Gold links you add to one at a time.</p>
+        <a class="go" href="https://www.etsy.com/listing/4435074621/custom-italian-charm-bracelet-gold" rel="noopener">See it</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About</h2>
+    <p>I'm Aliya. I lecture in theatre, train poomsae and dive when I can. I collect small, well-made things and write down why I like them.</p>
+    <p>New picks are added a few at a time. Pin the ones you like on Pinterest: <a href="https://www.pinterest.com/aleecarte/" rel="noopener"><strong>aleecarte</strong></a>.</p>
+  </section>
+
+  <footer>© 2026 Alee Carte · <a href="https://www.pinterest.com/aleecarte/" rel="noopener">Pinterest</a> · <a href="https://www.instagram.com/rarephlox/" rel="noopener">Instagram</a> · Prices and availability are set by the shops.</footer>
+</main>
+</body>
+</html>
